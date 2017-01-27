@@ -20,7 +20,7 @@ public class MainMenuScreen implements Screen {
 
     public MainMenuScreen(final StreetJumper game) {
         this.game = game;
-        background = new Background(0);
+        background = new Background();
         startGameRec = new Rectangle();
         aboutRec = new Rectangle();
         popUpScreen = new PopUpScreen();
